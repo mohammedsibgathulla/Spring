@@ -29,5 +29,9 @@ Constuctor - Autowiring by type from bean name  via constructor
 Setter -  Autowiring by type from bean name 'binarySearchImpl' to bean named 'bubbleSortAlgorithm'
 No Setter or Constructor - Autowiring by type from bean name 'binarySearchImpl' to bean named 'bubbleSortAlgorithm'
 
+7. Spring Modules
+- Spring has different modules Core Container, Data Access / Integration, Web.
+- Test, AOP, Aspects, Instrumentation, Messaging (These are called as cross cutting modules as they are applicable to more than one layer).
+
 
 
