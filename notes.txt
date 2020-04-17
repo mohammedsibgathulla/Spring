@@ -43,5 +43,8 @@ ToDoController(Web Layer) (@Autowired)-> ToDoDataService(Business Layer) (@Autow
 - You can just use bean name of any bean implementing the interface and autowire it instead of @Primary annotation.
 - If you use both name and @Primary the preference will be give to @Primary and that particular bean is used in the autowiring.
 
+11. Autowiring In Depth @Qualifer Annotation
+- @Qualifier("quick") you have to use it on both the dependency and the bean name which u want to use for autowiring.
+
 
 
