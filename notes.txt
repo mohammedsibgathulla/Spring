@@ -1,0 +1,13 @@
+1. Quick Introduction to Spring Framework
+Dependency Injection solves the problem of tight coupling of code.
+@Component - Spring manages the instances of the classes using the @Component.
+@Autowired - Spring will autowire the dependency and populate it.
+
+Important Terminology of Spring Framework
+1. Beans - Differenct objects managed by spring framework.
+2. Autowiring - Process where spring identifies the dependencies and identifies the matches for the dependencies and populates them.
+3. Dependency Injection - Dependency Injection solves the problem of tight coupling of code and we don't need to instantiate the classes.
+4. Inversion of Control - We are taking the control from the class which needs the dependency and giving the control to the spring framework.
+5. IOC Container - It is a generic terminology to represent anything that is implementing IOC.
+6. Application Context - In Spring Application Context is the IOC Container.
+
