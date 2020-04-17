@@ -20,4 +20,8 @@ Important Terminology of Spring Framework
 4. Using Spring Framework To Manage Dependencies - @Component, @Autowired
 - @springBootApplication tells spring to scan the package and subpackages in which it is declared.
 
+5. Dynamic Auto Wiring
+- When a dependency has more than one bean then we need to specify which bean to be used as primary during autowiring.
+@Primary - It is used to specy a bean as primary when we have two beans of same implementation.
+
 
