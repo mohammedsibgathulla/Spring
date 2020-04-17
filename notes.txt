@@ -14,3 +14,7 @@ Important Terminology of Spring Framework
 2. Setting Up Spring Boot Project Using http://start.spring.io
 1. Just download the basic spring boot project without any dependencies.
 
+3. Understanding the tight coupling.
+- See the project.
+
+
