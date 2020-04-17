@@ -1,17 +1,8 @@
 package com.spring.basics.springbasicsteps;
 
-public class BinarySearchImpl implements SortAlgorithm{
-
-	SortAlgorithm sortAlgorithm;
+public class BinarySearchImpl{
 	public BinarySearchImpl(SortAlgorithm sortAlgorithm) {
 		// TODO Auto-generated constructor stub
-		this.sortAlgorithm = sortAlgorithm;
+		sortAlgorithm.sort();
 	}
-	@Override
-	public void sort() {
-		// TODO Auto-generated method stub
-		 sortAlgorithm.sort();
-	}
-
-
 }
