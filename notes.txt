@@ -11,3 +11,6 @@ Important Terminology of Spring Framework
 5. IOC Container - It is a generic terminology to represent anything that is implementing IOC.
 6. Application Context - In Spring Application Context is the IOC Container.
 
+2. Setting Up Spring Boot Project Using http://start.spring.io
+1. Just download the basic spring boot project without any dependencies.
+
