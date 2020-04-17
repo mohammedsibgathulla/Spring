@@ -33,5 +33,8 @@ No Setter or Constructor - Autowiring by type from bean name 'binarySearchImpl' 
 - Spring has different modules Core Container, Data Access / Integration, Web.
 - Test, AOP, Aspects, Instrumentation, Messaging (These are called as cross cutting modules as they are applicable to more than one layer).
 
+8. Spring Projects
+- See the image.
+
 
 
