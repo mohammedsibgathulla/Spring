@@ -39,5 +39,9 @@ No Setter or Constructor - Autowiring by type from bean name 'binarySearchImpl' 
 9. Dependency Injection Few More Examples
 ToDoController(Web Layer) (@Autowired)-> ToDoDataService(Business Layer) (@Autowired)-> (Data Layer) JdbcTemplate
 
+10. Autowiring In Depth By Name & @Primary
+- You can just use bean name of any bean implementing the interface and autowire it instead of @Primary annotation.
+- If you use both name and @Primary the preference will be give to @Primary and that particular bean is used in the autowiring.
+
 
 
