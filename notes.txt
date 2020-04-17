@@ -17,4 +17,7 @@ Important Terminology of Spring Framework
 3. Understanding the tight coupling.
 - See the project.
 
+4. Using Spring Framework To Manage Dependencies - @Component, @Autowired
+- @springBootApplication tells spring to scan the package and subpackages in which it is declared.
+
 
