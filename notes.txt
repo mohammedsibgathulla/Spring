@@ -24,4 +24,10 @@ Important Terminology of Spring Framework
 - When a dependency has more than one bean then we need to specify which bean to be used as primary during autowiring.
 @Primary - It is used to specy a bean as primary when we have two beans of same implementation.
 
+6. Constructor & Setter Injection
+Constuctor - Autowiring by type from bean name  via constructor 
+Setter -  Autowiring by type from bean name 'binarySearchImpl' to bean named 'bubbleSortAlgorithm'
+No Setter or Constructor - Autowiring by type from bean name 'binarySearchImpl' to bean named 'bubbleSortAlgorithm'
+
+
 
