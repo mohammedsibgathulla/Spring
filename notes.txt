@@ -36,5 +36,8 @@ No Setter or Constructor - Autowiring by type from bean name 'binarySearchImpl' 
 8. Spring Projects
 - See the image.
 
+9. Dependency Injection Few More Examples
+ToDoController(Web Layer) (@Autowired)-> ToDoDataService(Business Layer) (@Autowired)-> (Data Layer) JdbcTemplate
+
 
 
