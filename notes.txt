@@ -52,5 +52,10 @@ ToDoController(Web Layer) (@Autowired)-> ToDoDataService(Business Layer) (@Autow
 - request - One bean per HTTP request.
 - session - One bean per HTTP session.
 
+13. Complex Scope Scenarios Of A Spring Bean Mix Prototype and Singleton
+- When you use singleton with the bean and if dependency bean has prototype it will not be implemented hence in order to apply it we need to configure the proxy on the dependency bean.
+- @Scope(value=ConfigurableBeanFactory.SCOPE_PROTOTYPE, proxyMode = ScopedProxyMode.TARGET_CLASS)
+
+
 
 
