@@ -46,5 +46,11 @@ ToDoController(Web Layer) (@Autowired)-> ToDoDataService(Business Layer) (@Autow
 11. Autowiring In Depth @Qualifer Annotation
 - @Qualifier("quick") you have to use it on both the dependency and the bean name which u want to use for autowiring.
 
+12. Scope Of A Bean - Prototype & Singleton
+- @Scope(ConfigurableBeanFactory.SCOPE_SINGLETON) singleton Bean - One instance per Spring Context (In Spring by default any bean is a singleton bean).
+- @Scope("prototype") / @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE): prototype Bean - U will get a new bean when ever requested.
+- request - One bean per HTTP request.
+- session - One bean per HTTP session.
+
 
 
