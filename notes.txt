@@ -102,6 +102,9 @@ The below are the different stereotypes where are present in the spring.
 By defining these annotations you can apply different logic
 You want to log everything coming into your business layer in that kind of scenario you will be able to identify everything that has an @service annotation you can use AOP to identify that and you can log all the content.
 
+22. Read Values From External Properties File
+@Value("${some.service.url}"): This annotation is used to read the value from the external properties file.
+@PropertySource("classpath:app.properties"): In order to tell the configuration to load the external properties file.
 
 
 
