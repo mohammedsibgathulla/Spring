@@ -81,6 +81,10 @@ ToDoController(Web Layer) (@Autowired)-> ToDoDataService(Business Layer) (@Autow
 @Configuration & @ComponentScan are used instead of @SpringBootApplication to initialize the Application Context in java way instead of SpringBoot.
 - See the project for more details.
 
+19. Defining Spring Applicatino Context Using XML
+- If we use xml approach the file will have a lot of lines due to which it will be very difficult to maintain.
+- See the project for more details.
+
 
 
 
