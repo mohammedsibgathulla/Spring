@@ -22,7 +22,7 @@ Important Terminology of Spring Framework
 
 5. Dynamic Auto Wiring
 - When a dependency has more than one bean then we need to specify which bean to be used as primary during autowiring.
-@Primary - It is used to specy a bean as primary when we have two beans of same implementation.
+@Primary - It is used to specify a bean as primary when we have two beans of same implementation.
 
 6. Constructor & Setter Injection
 Constuctor - Autowiring by type from bean name  via constructor 
@@ -55,6 +55,14 @@ ToDoController(Web Layer) (@Autowired)-> ToDoDataService(Business Layer) (@Autow
 13. Complex Scope Scenarios Of A Spring Bean Mix Prototype and Singleton
 - When you use singleton with the bean and if dependency bean has prototype it will not be implemented hence in order to apply it we need to configure the proxy on the dependency bean.
 - @Scope(value=ConfigurableBeanFactory.SCOPE_PROTOTYPE, proxyMode = ScopedProxyMode.TARGET_CLASS)
+
+14. Difference Between Spring Singleton & GOF (Gang Of Four) Singleton
+- GOF Singleton is one Singleton per JVM even if u have multiple Application Contexts are running in the same JVM u should have once instance of that specific class.
+- In Spring one Instance per Application Context if you have 5 Application Context a hypothetical scenario then u will have 5 instances.
+
+
+
+
 
 
 
