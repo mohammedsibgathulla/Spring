@@ -2,23 +2,22 @@ package com.spring.basics.springbasicsteps;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 
-import com.spring.basics.componentscan.ComponentDAO;
-import com.spring.basics.scope.SpringBasicScopeApplication;
+import com.spring.basics.componentscan.ComponentDAO	;
  
 
-@SpringBootApplication 
+@Configuration
+@ComponentScan
 @ComponentScan("com.spring.basics.componentscan")
 public class SpringBasicComponentScanApplication {
 	
 	private static Logger LOGGER = LoggerFactory.getLogger(SpringBasicComponentScanApplication.class);
 	
 	public static void main(String[] args) {
-		ApplicationContext applicationContext = SpringApplication.run(SpringBasicComponentScanApplication.class, args);
+		try(AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(SpringBasicComponentScanApplication.class)){
 		 
 		
 		ComponentDAO personDAO = applicationContext.getBean(ComponentDAO.class);
@@ -28,6 +27,7 @@ public class SpringBasicComponentScanApplication {
 		LOGGER.info("{}", personDAO.getJdbcConnection());
 		LOGGER.info("{}", personDAO1);
 		LOGGER.info("{}", personDAO1.getJdbcConnection());
+		}
 	 
  
 	}

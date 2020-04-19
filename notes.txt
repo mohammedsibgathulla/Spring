@@ -77,6 +77,10 @@ ToDoController(Web Layer) (@Autowired)-> ToDoDataService(Business Layer) (@Autow
 @Singleton (Defines a scope of Singleton)
 - You need to add the dependency of maven in pom.xml in order to use the above annotations.
 
+18. Removing Spring Boot In Basic Application
+@Configuration & @ComponentScan are used instead of @SpringBootApplication to initialize the Application Context in java way instead of SpringBoot.
+- See the project for more details.
+
 
 
 

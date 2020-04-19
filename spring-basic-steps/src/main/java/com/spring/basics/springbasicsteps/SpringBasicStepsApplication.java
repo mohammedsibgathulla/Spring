@@ -1,18 +1,20 @@
 package com.spring.basics.springbasicsteps;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 
-@SpringBootApplication //It will scan for beans present inside this package and subpackages
+@Configuration
+@ComponentScan
 public class SpringBasicStepsApplication {
 
 	public static void main(String[] args) {
 		//SpringApplication.run(SpringBasicStepsApplication.class, args);
 		//new BinarySearchImpl(new BubbleSortAlgorithm());
-		ApplicationContext applicationContext = SpringApplication.run(SpringBasicStepsApplication.class, args);
+		try(AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(SpringBasicStepsApplication.class)){
 		BinarySearchImpl binarySearchImpl = applicationContext.getBean(BinarySearchImpl.class);
 		binarySearchImpl.binarySearch();
+		}
  
 	 
  
