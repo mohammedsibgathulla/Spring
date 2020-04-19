@@ -60,6 +60,10 @@ ToDoController(Web Layer) (@Autowired)-> ToDoDataService(Business Layer) (@Autow
 - GOF Singleton is one Singleton per JVM even if u have multiple Application Contexts are running in the same JVM u should have once instance of that specific class.
 - In Spring one Instance per Application Context if you have 5 Application Context a hypothetical scenario then u will have 5 instances.
 
+15. Using Component Scan To Scan For Beans
+- @ComponentScan("package") This annotation will scan the beans from the package u have specified. If u specify the root pacakge then all the beans will be scanned.
+- @SpringBootApplication This will scan for the beans in the current package.
+
 
 
 
