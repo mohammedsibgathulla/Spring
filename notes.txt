@@ -64,6 +64,12 @@ ToDoController(Web Layer) (@Autowired)-> ToDoDataService(Business Layer) (@Autow
 - @ComponentScan("package") This annotation will scan the beans from the package u have specified. If u specify the root pacakge then all the beans will be scanned.
 - @SpringBootApplication This will scan for the beans in the current package.
 
+16. Life Cycle Of A Bean - @PostConstruct And @PreDestroy
+- The entire life cycle of bean is managed by the Spring IOC container.
+@PostConstruct: Do certain things during the creation of the bean. The post construct is called after the dependencies and autowiring is done.
+@PostDestroy: Do certaion things before the bean is destroyed.
+
+
 
 
 
