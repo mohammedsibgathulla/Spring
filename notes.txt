@@ -93,6 +93,15 @@ IOC Container: It is a generic terminology to represent anything that is impleme
 Bean Factory: It provides basic management of beans and wiring of dependencies. It is used in devices where the memory is very less like (IOT devices)
 Application Context: Bean Factory ++, Spring AOP Features, I18n capabilites, Web Application Context for web Applications etc. 
 
+22. @Component vs @Service vs @Repository vs @Controller
+The below are the different stereotypes where are present in the spring.
+@Component: Generic Component
+@Service: Business Service Facade
+@Repository: Encapsulating Storage, retrival and search behaviour typically from a relational database
+@Controller: It is used to define a controller in the web layer (Controller in MVC Pattern)
+By defining these annotations you can apply different logic
+You want to log everything coming into your business layer in that kind of scenario you will be able to identify everything that has an @service annotation you can use AOP to identify that and you can log all the content.
+
 
 
 
