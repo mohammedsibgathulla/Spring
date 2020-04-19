@@ -7,9 +7,9 @@ import org.springframework.stereotype.Component;
 
 @Component 
 @Scope(value=ConfigurableBeanFactory.SCOPE_PROTOTYPE, proxyMode=ScopedProxyMode.TARGET_CLASS)
-public class JdbcConnection{
+public class CdiJdbcConnection{
 	
-	public JdbcConnection() {
+	public CdiJdbcConnection() {
 		// TODO Auto-generated method stub
 		System.out.println("From JDBC Connection");
 	}

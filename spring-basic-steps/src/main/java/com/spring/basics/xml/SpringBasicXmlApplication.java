@@ -2,9 +2,6 @@ package com.spring.basics.xml;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
  
@@ -20,6 +17,8 @@ public class SpringBasicXmlApplication {
 		LOGGER.info("{}", personDAO.getXmlJdbcConnection());
 		LOGGER.info("{}", personDAO1);
 		LOGGER.info("{}", personDAO1.getXmlJdbcConnection());
+		
+		LOGGER.info("Beans Loaded -> {}", (Object) applicationContext.getBeanDefinitionNames());
 		}
 		
  

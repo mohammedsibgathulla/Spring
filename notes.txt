@@ -81,9 +81,12 @@ ToDoController(Web Layer) (@Autowired)-> ToDoDataService(Business Layer) (@Autow
 @Configuration & @ComponentScan are used instead of @SpringBootApplication to initialize the Application Context in java way instead of SpringBoot.
 - See the project for more details.
 
-19. Defining Spring Applicatino Context Using XML
+19. Defining Spring Application Context Using XML
 - If we use xml approach the file will have a lot of lines due to which it will be very difficult to maintain.
 - See the project for more details.
+
+20. Mixing XML Context With Component Scan For Beans Defined With Annotation
+- <context:component-scan base-package="com.spring.basics"></context:component-scan> By defining the code the spring will scan all the beans including the annotated beans and as well as xml defined beans in the project.
 
 
 

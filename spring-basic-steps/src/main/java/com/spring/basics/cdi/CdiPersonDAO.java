@@ -4,15 +4,15 @@ import javax.inject.Inject;
 import javax.inject.Named;
 
 @Named 
-public class PersonDAO{
+public class CdiPersonDAO{
 	@Inject
-	JdbcConnection jdbcConnection;
+	CdiJdbcConnection jdbcConnection;
 
-	public JdbcConnection getJdbcConnection() {
+	public CdiJdbcConnection getJdbcConnection() {
 		return jdbcConnection;
 	}
 
-	public void setJdbcConnection(JdbcConnection jdbcConnection) {
+	public void setJdbcConnection(CdiJdbcConnection jdbcConnection) {
 		this.jdbcConnection = jdbcConnection;
 	}
  

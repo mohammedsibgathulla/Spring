@@ -19,8 +19,8 @@ public class SpringBasicCdiApplication {
 		
 		
 				//SpringApplication.run(SpringBasicCdiApplication.class, args);
-		PersonDAO personDAO = annotationConfigApplicationContext.getBean(PersonDAO.class);
-		PersonDAO personDAO1 = annotationConfigApplicationContext.getBean(PersonDAO.class);
+		CdiPersonDAO personDAO = annotationConfigApplicationContext.getBean(CdiPersonDAO.class);
+		CdiPersonDAO personDAO1 = annotationConfigApplicationContext.getBean(CdiPersonDAO.class);
 		
 		LOGGER.info("{}", personDAO);
 		LOGGER.info("{}", personDAO.getJdbcConnection());
