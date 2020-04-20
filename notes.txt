@@ -106,6 +106,13 @@ You want to log everything coming into your business layer in that kind of scena
 @Value("${some.service.url}"): This annotation is used to read the value from the external properties file.
 @PropertySource("classpath:app.properties"): In order to tell the configuration to load the external properties file.
 
+23. What Is JUnit & Unit Testing?
+Screen Testing / System Testing: Testing the entire application after deployment then it is called as Screen Testing / System Testing.
+Unit Testing: Testing the specific method or a group of methods of a class.
+JUnit: It is a framework which will help you to call the specific method and check the output is as expected. It helps to do Unit testing.
+- These are automated tests. We can run these tests any number of times. You can run the tests every hour or when ever a change is there in the code.
+- When ever the test fail u will be notified. These can be run under Continuous Integration.
+
 
 
 
