@@ -113,6 +113,9 @@ JUnit: It is a framework which will help you to call the specific method and che
 - These are automated tests. We can run these tests any number of times. You can run the tests every hour or when ever a change is there in the code.
 - When ever the test fail u will be notified. These can be run under Continuous Integration.
 
+24. First JUnit Project & Green Bar
+- Absent of failure is Success in JUnit Framework.
+
 
 
 
