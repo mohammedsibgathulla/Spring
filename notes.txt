@@ -119,6 +119,13 @@ JUnit: It is a framework which will help you to call the specific method and che
 25. First Code & First Unit Test
 - See the project.
 
+26. Other Assert Methods & Important Annotations
+@Before: By using this annotation on a method it will run before every test method. You can define database connection something like that in @before where you want a new connection every time. @BeforeEach from JUnit 5
+@After: By using this annotation on a method it will run after every test method. @AfterEach from JUnit 5
+@BeforeClass: By using this annotation on a method it will run before all the test methods in a class. This method should be static. @BeforeAll from JUnit 5. 
+@AfterClass: By using this annotation on a method it will run after all the test methods in a class. This method should be static. @AfterAll from JUnit 5
+
+
 
 
 
