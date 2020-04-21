@@ -134,6 +134,11 @@ mock(Class.class): This method is used to create the mock of a given class.
 when(method called).thenReturn(data): This method is used to retrun the data the stub was providing previously.
 Using mockito u can use classes or interfaces to create the mocks.
 
+29. Using Mockito Annotations - @Mock, @InjectMocks, @RunWith
+@Mock: With this annotation u don't need to write the mock(Class.class) method in order to mock the class. You can just use the @Mock annotation.
+@InjectMocks: This annotations is used to inject the mocks in the class where the dependencies are there.
+@RunWith(MockitoJUnitRunner.class): When you use mockito annotation then u need to use the @RunWith annotation on the test class.
+
 
 
 
