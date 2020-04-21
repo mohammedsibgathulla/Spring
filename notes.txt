@@ -139,6 +139,9 @@ Using mockito u can use classes or interfaces to create the mocks.
 @InjectMocks: This annotations is used to inject the mocks in the class where the dependencies are there.
 @RunWith(MockitoJUnitRunner.class): When you use mockito annotation then u need to use the @RunWith annotation on the test class.
 
+30. Mocking List Interface
+- See project for details.
+
 
 
 
