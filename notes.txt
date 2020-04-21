@@ -129,6 +129,11 @@ JUnit: It is a framework which will help you to call the specific method and che
 - If you use stubs then u have to maintaion lot of code
 - We need to create the multiple versions of the stub for different scenarios. Hence we will mocks here instead of stubs with the help of mockito.
 
+28. Your First Mock With Mockito
+mock(Class.class): This method is used to create the mock of a given class. 
+when(method called).thenReturn(data): This method is used to retrun the data the stub was providing previously.
+Using mockito u can use classes or interfaces to create the mocks.
+
 
 
 

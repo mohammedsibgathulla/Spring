@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class SomeBusinessImplTest {
+class SomeBusinessImplStubTest {
 
 	@Test
 	void testWith3Numbers() {
@@ -28,6 +28,7 @@ class DataServiceStub implements DataService {
 		// TODO Auto-generated method stub		
 		return new int[] {24,32,40};
 	}
+ 
 	
 }
 //You have to create different stub versions of the class for different test cases.
