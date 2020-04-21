@@ -125,6 +125,9 @@ JUnit: It is a framework which will help you to call the specific method and che
 @BeforeClass: By using this annotation on a method it will run before all the test methods in a class. This method should be static. @BeforeAll from JUnit 5. 
 @AfterClass: By using this annotation on a method it will run after all the test methods in a class. This method should be static. @AfterAll from JUnit 5
 
+27. Introduction To Mockito
+- If you use stubs then u have to maintaion lot of code
+- We need to create the multiple versions of the stub for different scenarios. Hence we will mocks here instead of stubs with the help of mockito.
 
 
 
