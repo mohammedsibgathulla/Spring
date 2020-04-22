@@ -142,6 +142,11 @@ Using mockito u can use classes or interfaces to create the mocks.
 30. Mocking List Interface
 - See project for details.
 
+31. Spring Unit Testing With A Java Context
+@ContextConfiguration(classes=SpringBasicStepsApplication.class): Define the  configuration context.
+@RunWith(SpringRunner.class): The runner will launch the specific context defined ny the @ContextConfiguration
+@Autowired: To get the bean from the context.
+
 
 
 

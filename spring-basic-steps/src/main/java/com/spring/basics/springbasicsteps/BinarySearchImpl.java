@@ -24,6 +24,9 @@ public class BinarySearchImpl{
 	public void binarySearch() {
 		sortAlgorithm.sort();
 	}
+	public int binarySearchR1() {
+		return 3;
+	}
 	@PostConstruct
 	public void postConstruct() {
 		LOGGER.info("From post construct");
