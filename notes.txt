@@ -147,9 +147,13 @@ Using mockito u can use classes or interfaces to create the mocks.
 @RunWith(SpringRunner.class): The runner will launch the specific context defined ny the @ContextConfiguration
 @Autowired: To get the bean from the context.
 
-32. Spring Unit Test With XML Context
+32. Spring Unit Testing With XML Context
 @ContextConfiguration(locations="/applicationContext.xml"): Define the configuration context with the xml file.
 - You can define a seperate test configuration xml file also.
+
+33. Spring Unit Testing With Mockito
+- We don't need @ContextConfiguration(classes=SpringBasicCdiApplication.class) for Mockito
+- We use @RunWith(MockitoJUnitRunner.class)
 
 
 

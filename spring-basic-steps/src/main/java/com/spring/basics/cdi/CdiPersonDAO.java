@@ -15,5 +15,9 @@ public class CdiPersonDAO{
 	public void setJdbcConnection(CdiJdbcConnection jdbcConnection) {
 		this.jdbcConnection = jdbcConnection;
 	}
+	
+	public int getData() {
+		return 3;
+	}
  
 }
