@@ -194,6 +194,15 @@ Production-ready features
  - ArtifactId: springbootbasics
  - Add web and Generate project.
 
+ 37. Create A Simple Rest Controller
+ - Create a Book pojo
+ - Create a BookController with @RestController: 
+ - Create a method that returns the books with @GetMapping("/books") 
+ - Here we have a created a Rest Service in less than 5 minutes 
+ - We have just focused on creating the REST Service. We have not focussed on either configuring a framework, beans, dispatcher servlet, beans, logging or view resolver.
+ - lsof -i :8080 //command to see which process is running on a given port number
+
+
 
  
 
