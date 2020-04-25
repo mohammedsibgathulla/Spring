@@ -261,6 +261,11 @@ JoinPoint: It is a specific interception of a method call. It is a specific exec
 Weaving: Process where this whole thing gets weaved around your code is called weaving.
 Weaver: The framework which does weaving is called Weaver.
 
+45. Using @After, @AfterReturning, @AfterThrowing Advices
+@AfterReturning: It is executed only when the execution is completed succesfully. 
+@AfterThrowing: It is executed when there occours some exception.
+@After: It is common one where it is throwing exception or returning a value we can use this.
+
 
 
 
