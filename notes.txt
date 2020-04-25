@@ -222,6 +222,9 @@ Spring Boot
 Spring MVC : Spring MVC Framework provides decoupled way of developing web applications. With simple concepts like Dispatcher Servlet, ModelAndView and View Resolver, it makes
 it easy to develop web applications.
 
+39. Spring Boot Starter Projects - Starter Web & Starter JPA
+Starter Web & Starter JPA are the spring boot starter projects.
+
 	 	
 
 
