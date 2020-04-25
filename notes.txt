@@ -178,6 +178,16 @@ Production-ready features
  - metrics and health checks 
  - externalized configuration
 
+ 35. Developing Spring Applications Before Spring Boot
+ - Choosing the frameworks to use and which versions to use is the major decision that wee needed to make before spring boot.
+ - We needed to define the complete configuration file.
+ - We needed to configure the view resolver to redirect the view to the jsp.
+ - To implement the internalization we need to implement a message source and also a localeresolver
+ - We needed to configure the web.xml also i.e configure the DispatcherServlet, configure the context configuration location, configure the spring security filter
+ - We needed to configure many dependencies, versions, configurations, internalization, logging etc.
+ All these we have to do on our own before spring boot, but with the help of spring boot simple starter project 'spring boot starter web' in combination with 
+ spring boot starter security will eliminate a lot of configuration that we described.
+
 
  
 
