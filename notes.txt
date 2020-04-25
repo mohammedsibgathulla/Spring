@@ -270,6 +270,10 @@ Weaver: The framework which does weaving is called Weaver.
 @Around: It is used to calculate the time taken by a method to get executed. 
 Here we use ProceedingJoinpoint as parameter instead of JoinPoint.
 
+47. Use Common Pointcut Configuration
+- We can define all the pointcuts in a separate file.
+@Pointcut("execution(* com.spring.aop.springaop.business.*.*(..)")
+
 
 
 
