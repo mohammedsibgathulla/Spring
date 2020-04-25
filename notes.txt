@@ -235,6 +235,11 @@ spring actuator.
 - For HAL Browser http://localhost:8080/browser/index.html#/
 - Enter actuator and press Go.
 
+41. Spring Boot Developer Tools
+- Tools to restart the server automatically when we do some changes in the IDE.
+- If you stop and restart then it will load the whole application again that takes lot of time
+- But with the deveoper tools only the changes that are done are only loaded.
+
 	 	
 
 
