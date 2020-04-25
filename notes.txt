@@ -274,6 +274,10 @@ Here we use ProceedingJoinpoint as parameter instead of JoinPoint.
 - We can define all the pointcuts in a separate file.
 @Pointcut("execution(* com.spring.aop.springaop.business.*.*(..)")
 
+48. Creating Custom Annotation And An Aspect For Tracking Time
+We define a pointcut of annotation type by using the custom annotation. It will work on those methods which will have the custom annotation on it. 
+
+
 
 
 

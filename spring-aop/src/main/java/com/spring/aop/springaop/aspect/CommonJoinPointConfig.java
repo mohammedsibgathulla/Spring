@@ -17,5 +17,8 @@ public class CommonJoinPointConfig {
 	
 	@Pointcut("within(com.spring.aop.springaop.dao..*)")
 	public void dataLayerExecutionWithWithin(){}
+	
+	@Pointcut("@annotation(com.spring.aop.springaop.aspect.TrackTime)")
+	public void tackTimeAnnotation() {}	
 
 }

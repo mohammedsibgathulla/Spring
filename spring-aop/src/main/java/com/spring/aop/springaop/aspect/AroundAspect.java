@@ -12,7 +12,7 @@ public class AroundAspect {
 	private org.slf4j.Logger logger =  LoggerFactory.getLogger(this.getClass());
 	
 	@Around(
-			value="com.spring.aop.springaop.aspect.CommonJoinPointConfig.allLayerExecution()")
+			value="com.spring.aop.springaop.aspect.CommonJoinPointConfig.tackTimeAnnotation()")
 	public void after(ProceedingJoinPoint proceedingJointPoint) throws Throwable {
 		long startTime = System.currentTimeMillis();
 		proceedingJointPoint.proceed();
