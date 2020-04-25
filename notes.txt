@@ -209,7 +209,20 @@ Production-ready features
 
 Spring Boot looks at a) Frameworks available on the CLASSPATH 
 b) Existing configuration for the application. Based on these, Spring Boot provides basic configuration needed to configure the application with these frameworks.
-This is called Auto Configuration. 	
+This is called Auto Configuration.
+
+38. Spring Boot vs Spring vs Spring MVC
+Spring Framework: Most important feature of spring framework is DI. At the core of all Spring Modules is DI or IOC.
+	- Solvers Duplication / Plumbing Code.
+	- Good Integration With Other Frameworks
+	 	- Hibernate for ORM
+	 	- iBatis for Object Mapping
+	 	- JUnit & Mockito for Unit Testing
+Spring Boot
+Spring MVC : Spring MVC Framework provides decoupled way of developing web applications. With simple concepts like Dispatcher Servlet, ModelAndView and View Resolver, it makes
+it easy to develop web applications.
+
+	 	
 
 
 
