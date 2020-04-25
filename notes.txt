@@ -188,6 +188,12 @@ Production-ready features
  All these we have to do on our own before spring boot, but with the help of spring boot simple starter project 'spring boot starter web' in combination with 
  spring boot starter security will eliminate a lot of configuration that we described.
 
+ 36. Using Spring Initializer To Create A Spring Boot Application
+ - Go to start.spring.io
+ - GroupId : com.springboot.basics
+ - ArtifactId: springbootbasics
+ - Add web and Generate project.
+
 
  
 
