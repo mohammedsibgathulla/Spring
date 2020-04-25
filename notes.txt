@@ -202,6 +202,17 @@ Production-ready features
  - We have just focused on creating the REST Service. We have not focussed on either configuring a framework, beans, dispatcher servlet, beans, logging or view resolver.
  - lsof -i :8080 //command to see which process is running on a given port number
 
+ 38. What Is Spring Boot Auto Configuration
+ @SpringBootApplication - It indicates that is it is a spring context file.
+ 	- It enables AutoConfiguration.
+ 	- It enables ComponentScan on the current package.
+
+Spring Boot looks at a) Frameworks available on the CLASSPATH 
+b) Existing configuration for the application. Based on these, Spring Boot provides basic configuration needed to configure the application with these frameworks.
+This is called Auto Configuration. 	
+
+
+
 
 
  
