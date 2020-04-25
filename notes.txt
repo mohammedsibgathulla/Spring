@@ -155,6 +155,32 @@ Using mockito u can use classes or interfaces to create the mocks.
 - We don't need @ContextConfiguration(classes=SpringBasicCdiApplication.class) for Mockito
 - We use @RunWith(MockitoJUnitRunner.class)
 
+34. Introduction To Spring Boot - Goals & Important Features
+Goals
+Enable building production ready applications quickly
+Provide common non-functional features 
+- embedded servers
+- metrics
+- health checks
+- externalized configuration
+
+What Spring Boot is NOT!
+ZERO code generation
+Neither an application server nor a web server
+
+Features
+Quick Starter Projects with Auto Configuration
+ - Web
+ - JPA
+Embedded Servers - Tomcat, Jetty or Undertow (During deployment u can just install java and the tomcat is packaged along 
+with the application jar no need to install it on the linux box. In the world of microsservices it will make a huge difference).
+Production-ready features
+ - metrics and health checks 
+ - externalized configuration
+
+
+ 
+
 
 
 
