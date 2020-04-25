@@ -240,6 +240,22 @@ spring actuator.
 - If you stop and restart then it will load the whole application again that takes lot of time
 - But with the deveoper tools only the changes that are done are only loaded.
 
+42. Setting Up AOP Example
+Generate project with AOP Dependency from start.spring.io
+We can use spring AOP to intercept any calls to beans
+AspectJ is much more powerful you can even interspect change of values on a field.
+Spring AOP is not powerful as AspectJ
+AOP is the best approach for implementing the cross cutting concerns.
+
+43. Setting Up AOP and @Before Advice
+@Aspect & @Configuration : These are used to define the AOP file
+@Before("execution(* com.spring.aop.springaop.business.*.*(..)"): It intercepts before call to every method of all classes of all methods of any returntype in the business package.
+- This annotation intercepts before the actual method call is invoked.
+JointPoint: With the help of jointPoint parameter we can get the details of the method calls.
+
+
+
+
 	 	
 
 
