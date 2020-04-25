@@ -266,6 +266,10 @@ Weaver: The framework which does weaving is called Weaver.
 @AfterThrowing: It is executed when there occours some exception.
 @After: It is common one where it is throwing exception or returning a value we can use this.
 
+46. Using @Around Advice To Implement Performance Tracing 
+@Around: It is used to calculate the time taken by a method to get executed. 
+Here we use ProceedingJoinpoint as parameter instead of JoinPoint.
+
 
 
 
