@@ -225,6 +225,16 @@ it easy to develop web applications.
 39. Spring Boot Starter Projects - Starter Web & Starter JPA
 Starter Web & Starter JPA are the spring boot starter projects.
 
+40. Spring Boot Actuator
+- It brings a lot of monitoring around your application. 
+- You want to see wat are the beans u have configured, how auto configuration work, how many times a specific service is called etc. All these you can do with the help of
+spring actuator.
+- It exposes a lot of REST Services. We use the HAL browser to see the data provided by the services.
+- Spring Tools Eclipse Plugin to get the automated code in properties file.
+- Access url for actuator localhost:8080/acutator/
+- For HAL Browser http://localhost:8080/browser/index.html#/
+- Enter actuator and press Go.
+
 	 	
 
 
