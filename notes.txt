@@ -253,6 +253,14 @@ AOP is the best approach for implementing the cross cutting concerns.
 - This annotation intercepts before the actual method call is invoked.
 JointPoint: With the help of jointPoint parameter we can get the details of the method calls.
 
+44. Understand AOP Terminology - Pointcut, Advice, Aspect And JoinPoint
+Pointcut: The expression which defines what kind of methods we want to intercept is called the Pointcut.
+Advice: What should we do when we intercepet the method is called Advice. The logic is called Advice.
+Aspect: The combination of Advice & Pointcut is called an Aspect.
+JoinPoint: It is a specific interception of a method call. It is a specific execution instance. If 100 methods calls are intercepted then there will be 100 Joinpoints.
+Weaving: Process where this whole thing gets weaved around your code is called weaving.
+Weaver: The framework which does weaving is called Weaver.
+
 
 
 
