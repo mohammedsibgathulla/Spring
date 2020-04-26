@@ -1,4 +1,4 @@
-package com.spring.database.databasedemo;
+package com.spring.database.databasedemo.jdbc;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

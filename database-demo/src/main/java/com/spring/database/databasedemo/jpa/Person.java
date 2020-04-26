@@ -1,26 +1,37 @@
-package com.spring.database.databasedemo;
+package com.spring.database.databasedemo.jpa;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+@Entity
 public class Person {
-	String id;
+	@Id
+	@GeneratedValue
+	int id;
 	String name;
 	String location;
 	Date birth_date;
 	
 	public Person() {} //You have to provide the default constructor if you are using the below constructor or else u will get No default constructor found; nested exception 
 	
+	public Person(String name, String location, Date birth_date) {
+		this.name = name;
+		this.location = location;
+		this.birth_date = birth_date;
+	}
 
-	public Person(String id, String name, String location, Date birth_date) {
+	public Person(int id, String name, String location, Date birth_date) {
 		this.id = id;
 		this.name = name;
 		this.location = location;
 		this.birth_date = birth_date;
 	}
-	public String getId() {
+	public int getId() {
 		return id;
 	}
-	public void setId(String id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	public String getName() {

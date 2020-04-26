@@ -332,6 +332,15 @@ JdbcTemplateAutoConfiguration.JdbcTemplateConfiguration#jdbcTemplate matched:
 - If the data which is coming back from the table is of different structure compared to your bean for example if the column names don't really match with the field name in the Bean.
 In this kind of situations we will create our own RowMapper.
 
+58. Quick Introduction To JPA & Defining Person Entity
+- In JPA we will map the beans to the tables. JPA do object relational mapping.
+- Hibernate implements JPA
+- Hibernate was present before JPA
+
+59. Implementing CRUD Using JPA
+application.properties: spring.jpa.show-sql=true
+- See the project. 
+
 
 	 	
 

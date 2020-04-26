@@ -1,4 +1,4 @@
-package com.spring.database.databasedemo;
+package com.spring.database.databasedemo.jdbc;
 
 import java.util.Date;
 
@@ -9,7 +9,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication //Now this application will not get interfer with JPA Application
 public class DatabaseDemoApplication implements CommandLineRunner {
 	
 	private  Logger LOGGER = LoggerFactory.getLogger(this.getClass());
