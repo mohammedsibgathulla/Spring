@@ -362,7 +362,11 @@ application.properties: spring.jpa.show-sql=true
 - You can write java code in the Jsp's.
 - For this we use scriplets <% %> like Php. <? >
 - You can also do imports. 
-- But writing lot of java code using scriplets is a very very bad practice. We use expression language instead of scriplets.
+- But writing lot of java code using scriplets is a very very bad practice. We use expression language instead of scriplets. 
+
+66. Disadvantages Of Get Parameters
+- When ever you access a website or send a request it will pass through n number of routers. Anybody in the router can see the url u are passing in. 
+Hence any of the router can be able to see the inf in your url. Hence get method is not secure.
 
 
 	 	
