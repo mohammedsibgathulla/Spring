@@ -347,6 +347,9 @@ application.properties: spring.jpa.show-sql=true
 61. Introduction To Spring Data JPA
 - There is a lot of duplication writing the Repository using JPA as if we want to implement the Repository class code for Employee we just have to copy paste and change the Entity name. This is just the duplication of code.
 
+62. First Java Web Application Using Spring MVC
+- See the project.
+
 
 	 	
 
