@@ -31,6 +31,8 @@ public class DatabaseDemoApplication implements CommandLineRunner {
 //			LOGGER.info("Person details {}", person.location);
 //			LOGGER.info("Person details {}", person.birth_date);
 //		}
+		LOGGER.info("The persons of id 10001 {}", personJdbcDao.findById(10001));
+		
 	}
 
 }

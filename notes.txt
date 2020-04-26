@@ -317,8 +317,10 @@ JdbcTemplateAutoConfiguration matched:
    - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource' (OnBeanCondition)
 
 JdbcTemplateAutoConfiguration.JdbcTemplateConfiguration#jdbcTemplate matched:
-   - @ConditionalOnMissingBean (types: org.springframework.jdbc.core.JdbcOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+   - @ConditionalOnMissingBean (types: org.springframework.jdbc.core.JdbcOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)\
 
+54. Implementing findById Spring JDBC Query Method
+- See the project.
 
 
 
