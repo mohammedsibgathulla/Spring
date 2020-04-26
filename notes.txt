@@ -358,6 +358,12 @@ application.properties: spring.jpa.show-sql=true
 - Expression langauage is used to dynamically pickup content from Request, Session & other things.
 - See the project.
 
+65. Introduction & End To Scriplets
+- You can write java code in the Jsp's.
+- For this we use scriplets <% %> like Php. <? >
+- You can also do imports. 
+- But writing lot of java code using scriplets is a very very bad practice. We use expression language instead of scriplets.
+
 
 	 	
 
