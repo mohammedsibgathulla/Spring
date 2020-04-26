@@ -322,6 +322,12 @@ JdbcTemplateAutoConfiguration.JdbcTemplateConfiguration#jdbcTemplate matched:
 54. Implementing findById Spring JDBC Query Method
 - See the project.
 
+55. Implementing deleteById Spring JDBC Query Method
+- See the project.
+
+56. Implementing Insert & Update Spring JDBC Query Method
+- See the project.
+
 
 
 

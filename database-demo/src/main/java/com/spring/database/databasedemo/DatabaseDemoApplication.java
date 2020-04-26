@@ -1,5 +1,7 @@
 package com.spring.database.databasedemo;
 
+import java.util.Date;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,6 +36,12 @@ public class DatabaseDemoApplication implements CommandLineRunner {
 		LOGGER.info("The persons of id 10001 {}", personJdbcDao.findById(10001));
 		
 		LOGGER.info("The No. of Persons Deleted is -> {}", personJdbcDao.deleteById(10001));
+		
+		LOGGER.info("Inserting 10004 -> {}", personJdbcDao.insertPerson(new Person("10004", "Pooja", "Raichur", new Date())));
+		
+		LOGGER.info("Updating 10004 -> {}", personJdbcDao.updatePerson(new Person("10004", "Mariam", "Raichur", new Date())));
+		
+		
 		
 	}
 
