@@ -19,6 +19,10 @@ public class WelcomeServlet extends HttpServlet {
 
 	  @Override
 	  protected void doGet(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws IOException, ServletException {
+		  String name = httpServletRequest.getParameter("name");
+		  httpServletRequest.setAttribute("name", name);
+		  
 		  httpServletRequest.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(httpServletRequest, httpServletResponse);
+		  
 	  }
 }

@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Welcome to Java Server Pages</h1>
+<h1>Welcome to Java Server Pages ${name}</h1>
 </body>
 </html>

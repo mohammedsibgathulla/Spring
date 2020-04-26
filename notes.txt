@@ -354,6 +354,10 @@ application.properties: spring.jpa.show-sql=true
 - Jsp's are finally compiled to servlets.
 - See the project. 
 
+64. Passing Request Parameters Using Get Method
+- Expression langauage is used to dynamically pickup content from Request, Session & other things.
+- See the project.
+
 
 	 	
 
