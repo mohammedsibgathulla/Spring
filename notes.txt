@@ -284,7 +284,8 @@ JDBC Url: jdbc:h2:mem:testdb
 H2 database will be running as long as the application will be running. Once the application stops the database will be deleted.
 H2 is in-memory database
 
-
+50. Create A Database Table & Populate Data
+- See the project.
 
 
 
