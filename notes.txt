@@ -277,6 +277,14 @@ Here we use ProceedingJoinpoint as parameter instead of JoinPoint.
 48. Creating Custom Annotation And An Aspect For Tracking Time
 We define a pointcut of annotation type by using the custom annotation. It will work on those methods which will have the custom annotation on it. 
 
+49. Setting Up A Project With JDBC, JPA, H2 & Launching H2 Console
+application.properties: spring.h2.console.enabled=true
+H2 database url: localhost:8080/h2-console
+JDBC Url: jdbc:h2:mem:testdb
+H2 database will be running as long as the application will be running. Once the application stops the database will be deleted.
+H2 is in-memory database
+
+
 
 
 
