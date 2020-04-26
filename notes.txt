@@ -341,6 +341,9 @@ In this kind of situations we will create our own RowMapper.
 application.properties: spring.jpa.show-sql=true
 - See the project. 
 
+60. Implementing findAll Using JPQL Named Query
+- See the project.
+
 
 	 	
 
