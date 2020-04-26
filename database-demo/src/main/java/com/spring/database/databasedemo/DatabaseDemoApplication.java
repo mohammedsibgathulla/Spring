@@ -33,6 +33,8 @@ public class DatabaseDemoApplication implements CommandLineRunner {
 //		}
 		LOGGER.info("The persons of id 10001 {}", personJdbcDao.findById(10001));
 		
+		LOGGER.info("The No. of Persons Deleted is -> {}", personJdbcDao.deleteById(10001));
+		
 	}
 
 }
