@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<p><font color="red">${errorMessage}</font></p>
 <form action="/welcome" method="post">
 <label>Username</label>
 <input type="text" name="username">
