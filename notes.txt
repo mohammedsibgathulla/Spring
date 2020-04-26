@@ -290,6 +290,12 @@ H2 is in-memory database
 51. Retrieve The Data Using CommandLineRunner
 - See the project.
 
+52. Spring JDBC vs JDBC
+- In Spring JDBC lot of code is reduced.
+- We don't need to do exception handling in Spring JDBC
+- Automatic connection close is handled by Spring JDBC.
+- Spring JDBC is very easy and chances of doing mistakes is reduced in Spring JDBC.
+
 
 
 
