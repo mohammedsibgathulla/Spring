@@ -1,1 +1,5 @@
-/.metadata/
+/.metadata
+spring-mvc/.settings/
+spring-mvc/.settings/org.eclipse.jdt.core.prefs
+/spring-mvc/.classpath
+

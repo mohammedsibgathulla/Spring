@@ -374,6 +374,14 @@ Hence any of the router can be able to see the inf in your url. Hence get method
 68. Validate Credentinals With ValidationService
 - See the project. 
 
+69. Setting Up Spring MVC
+- Add spring mvc depenency
+- Configure the Dispatcher Servlet (Spring MVC uses the pattern called Front Controller (Front Controller is basically something where all the requests would first go to the Dispatcher Servlet and only then the Dispatcher Servlet would send it to a controller or a jsp etc. This pattern is called Front Controller Pattern)
+- We have to add the Dispatcher Servlet to the web.xml file.
+- Servlets are usually added in web.xml or Annotation @Controller is used.
+
+
+
 
 
 	 	

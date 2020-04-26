@@ -1,4 +1,4 @@
-package webapp;
+package com.webmvc.jee;
 
 public class UserValidationService {
 	public boolean validateUser(String name, String password) {
