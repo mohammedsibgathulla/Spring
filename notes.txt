@@ -368,6 +368,10 @@ application.properties: spring.jpa.show-sql=true
 - When ever you access a website or send a request it will pass through n number of routers. Anybody in the router can see the url u are passing in. 
 Hence any of the router can be able to see the inf in your url. Hence get method is not secure.
 
+67. Your First Post Request & doPost Method
+- We can use a form and create a post request to send information more securely.
+
+
 
 	 	
 

@@ -19,8 +19,16 @@ public class WelcomeServlet extends HttpServlet {
 
 	  @Override
 	  protected void doGet(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws IOException, ServletException {
-		  String name = httpServletRequest.getParameter("name");
-		  httpServletRequest.setAttribute("name", name);
+		  
+		  httpServletRequest.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(httpServletRequest, httpServletResponse);
+		  
+	  }
+	  
+	  @Override
+	  protected void doPost(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws IOException, ServletException {
+		   ;
+		  httpServletRequest.setAttribute("name", httpServletRequest.getParameter("username"));
+		  httpServletRequest.setAttribute("password", httpServletRequest.getParameter("password"));
 		  
 		  httpServletRequest.getRequestDispatcher("/WEB-INF/views/welcome.jsp").forward(httpServletRequest, httpServletResponse);
 		  

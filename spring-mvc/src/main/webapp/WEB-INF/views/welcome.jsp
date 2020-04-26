@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Welcome to JSP</title>
 </head>
 <body>
 <h1>Welcome to Java Server Pages ${name}</h1>
@@ -17,5 +17,7 @@ Date date = new Date();
 System.out.print(date);
 %>
 <h2>The current date is <%=date%></h2>
+
+<h2>Hi User ${name}</h2>
 </body>
 </html>
