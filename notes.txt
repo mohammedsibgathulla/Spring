@@ -328,7 +328,9 @@ JdbcTemplateAutoConfiguration.JdbcTemplateConfiguration#jdbcTemplate matched:
 56. Implementing Insert & Update Spring JDBC Query Method
 - See the project.
 
-
+57. Creating Custom Spring JDBC RowMapper
+- If the data which is coming back from the table is of different structure compared to your bean for example if the column names don't really match with the field name in the Bean.
+In this kind of situations we will create our own RowMapper.
 
 
 	 	
