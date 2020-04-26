@@ -344,6 +344,9 @@ application.properties: spring.jpa.show-sql=true
 60. Implementing findAll Using JPQL Named Query
 - See the project.
 
+61. Introduction To Spring Data JPA
+- There is a lot of duplication writing the Repository using JPA as if we want to implement the Repository class code for Employee we just have to copy paste and change the Entity name. This is just the duplication of code.
+
 
 	 	
 

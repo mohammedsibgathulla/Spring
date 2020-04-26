@@ -10,7 +10,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
-@SpringBootApplication
+//@SpringBootApplication
 public class DatabaseJPADemoApplication implements CommandLineRunner {
 	
 	private  Logger LOGGER = LoggerFactory.getLogger(this.getClass());
