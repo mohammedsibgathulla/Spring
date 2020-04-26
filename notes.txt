@@ -287,6 +287,9 @@ H2 is in-memory database
 50. Create A Database Table & Populate Data
 - See the project.
 
+51. Retrieve The Data Using CommandLineRunner
+- See the project.
+
 
 
 
