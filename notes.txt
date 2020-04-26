@@ -380,6 +380,11 @@ Hence any of the router can be able to see the inf in your url. Hence get method
 - We have to add the Dispatcher Servlet to the web.xml file.
 - Servlets are usually added in web.xml or Annotation @Controller is used.
 
+70. Your First Spring MVC Controller
+@Controller : Instead of extending it with HTTPServlet class in Spring MVC we can just use @Controller
+@RequestMapping(value="/login"): To tell Dispatcher Servlet do mapping for /login url.
+@ResponseBody : To tell the Dispatcher Servlet that it should use the response body.
+
 
 
 
