@@ -8,9 +8,9 @@
 </head>
 <body>
 <h1>Employee Login</h1>
-<form action="/welcome" method="post">
+<form action="/spring-mvc/employee_login" method="post">
 <label>Username</label>
-<input type="text" name="username">
+<input type="text" name="name">
 
 <label>Password</label>
 <input type="password" name="password">

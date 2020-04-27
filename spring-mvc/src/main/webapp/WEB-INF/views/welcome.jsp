@@ -19,5 +19,6 @@ System.out.print(date);
 <h2>The current date is <%=date%></h2>
 
 <h2>Hi User ${name}</h2>
+<h2>You password is ${password}</h2>
 </body>
 </html>

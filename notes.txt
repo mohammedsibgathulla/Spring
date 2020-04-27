@@ -405,6 +405,10 @@ log4j.appender.Appender1.layout.ConversionPattern=%-7p %d [%t] %c %x - %m%n
 #WARN
 #ERROR
 
+79. Redirect To Employee Welcome Page: ModelMap & @RequestParam
+@RequestMapping(value="/login") : It will handle all the request (get & post) we can restrict it as follows.
+@RequestMapping(value="/login", method=RequestMethod.GET)
+- See the project.
 
 
 
