@@ -389,7 +389,10 @@ Hence any of the router can be able to see the inf in your url. Hence get method
 - If you use @ResponseBody then just login is returned in the response
 - If you remove @ResponseBody then also you will get an error as /login and login will go again and again. Hence we need to add View Resolver.
 - A View Resolver will redirect the login -> /WEB-INF/view/login.jsp.
-- View Resolver will add the prefix and suffix and resolve the view.
+- View Resolver will add the prefix and suffix and resolve the view. 
+
+72. Spring MVC Architecture
+- See the image.
 
 
 
