@@ -8,6 +8,7 @@
 </head>
 <body>
 <h1>Employee Login</h1>
+<p><font color="red">${errorMessage}</font></p>
 <form action="/spring-mvc/employee_login" method="post">
 <label>Username</label>
 <input type="text" name="name">

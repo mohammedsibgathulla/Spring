@@ -410,6 +410,9 @@ log4j.appender.Appender1.layout.ConversionPattern=%-7p %d [%t] %c %x - %m%n
 @RequestMapping(value="/login", method=RequestMethod.GET)
 - See the project.
 
+80. Use EmployeeLoginService To Authenticate
+- See the project.
+
 
 
 
