@@ -428,7 +428,18 @@ Repositories: 1. Local Repository 2. Remote Maven Repository
 Local Repository: It will be on our local system.
 Remote Maven Repository: Central Repostiories on Internet.
 
+82. Maven Build Life Cycle
+- Validate
+- Compile (Compiling the source code and compiling the test code)
+- Test (All the unit tests in the project are run)
+- Package (jar is built)
+- Integration Test (If any inegration test then those are run)
+- Verify 
+- Install (Taking your artifact which is generated and putting it to a local repository)
+- Deploy (The arifact is deployed to the reomte maven repository)
 
+- mvn clean install (It will executed all the lifecycles upto install)
+- Convention over configuration: Throught this concept maven defines a few predefined things like packaging structure src, src/test/ src/main/resources etc. 
 
 
 	 	
