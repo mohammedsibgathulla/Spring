@@ -413,6 +413,21 @@ log4j.appender.Appender1.layout.ConversionPattern=%-7p %d [%t] %c %x - %m%n
 80. Use EmployeeLoginService To Authenticate
 - See the project.
 
+81. Understanding POM(Project Object Model)
+- <artifactId> : Is the name we are giving to the specific project.
+- <groupId> & <artifactId> are important bcoz if any project wants to use our project then they need to specify the both.
+- <version>0.0.1-SNAPSHOT</version> Snapshot indicates that it is still under development.
+- <packaging>jar</packaging>: jar/war/ear (An ear can contain multiple war files).
+- <parent> </parent> : Ur POM files will inherit from the parent.
+- <properties> <java.version>1.8</java.version></properties> : 
+- <dependencies> </dependencies> : We can use the depencies as we require (spring-boot-starter-web, spring-boot-starter-test, etc.) Transitive Dependencies (Dependencies inside depdencies)
+- <repositories> </repositories> : Like dependencies we have multipe repositories.
+
+Repositories: 1. Local Repository 2. Remote Maven Repository
+
+Local Repository: It will be on our local system.
+Remote Maven Repository: Central Repostiories on Internet.
+
 
 
 
