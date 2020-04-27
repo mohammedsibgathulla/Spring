@@ -441,6 +441,17 @@ Remote Maven Repository: Central Repostiories on Internet.
 - mvn clean install (It will executed all the lifecycles upto install)
 - Convention over configuration: Throught this concept maven defines a few predefined things like packaging structure src, src/test/ src/main/resources etc. 
 
+83. Important Maven Commands
+- mvn compile
+- clean compile
+- clean test compile (It also compiles source files)
+- test (Runs unit tests)
+- help: effective-settings (All the settings and repostiories etc are printed. If you have problem with connecting to remote maven repository u can debug here)
+- help: effective-pom (A maven pom also have a parent pom that parent may also have parent & so on by this command all the data of all the pom's is printed)
+- mvn dependency:tree (It will show you all the dependencies that are coming into your project through dependencies we get a lot of transitive dependencies)
+- mvn dependency:sources (It will get all the source code of all the dependencies)
+- compile --debug (For all the maven commands u can put --debug and see a lot more content)
+
 
 	 	
 
