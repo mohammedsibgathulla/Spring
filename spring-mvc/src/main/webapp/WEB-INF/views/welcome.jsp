@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1>Welcome to Java Server Pages ${name}</h1>
-<h2>Currenty the project is using CI & CD</h2>
+<h2>Currenty the project is using CI & CD & CD</h2>
 <%
 System.out.println("hi");
 System.out.println(request.getParameter("name"));
