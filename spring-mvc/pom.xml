@@ -35,12 +35,10 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.2</version>
+					<version>3.7.0</version>
 					<configuration>
-						<verbose>true</verbose>
-						<source>1.8</source>
-						<target>1.8</target>
-						<showWarnings>true</showWarnings>
+						<fork>true</fork>
+						<executable>/usr/lib/jvm/java-8-openjdk-amd64/bin/javac</executable>
 					</configuration>
 				</plugin>
 				<plugin>
